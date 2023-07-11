@@ -1,0 +1,145 @@
+/*@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+*/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background: #001a13;
+  overflow-x: hidden;
+}
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 200px 30vw;
+}
+.aqua {
+  background: #00e68a;
+}
+.mint {
+  background: #99ffd6;
+}
+
+.dark_aqua {
+  background: #00664d;
+}
+
+.dark{
+  background: #001a13;
+}
+
+.wave-up {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-up svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 125px;
+}
+
+.wave-up .shape-fill {
+  fill: #001A13;
+}
+
+.mint-fill {
+  fill: #99ffd6;
+}
+
+.aqua-fill {
+  fill: #00e68a;
+}
+
+.dark_aqua-fill {
+  fill: #00664d;
+}
+
+.socials {
+  border-radius: 10px;
+  background: #99ffd6;
+  padding: 10px;
+  float: left;
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'JetBrains Mono', monospace;
+  text-shadow: 1px 1px 50px #99ffd6;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+p {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.tech-logo {
+  width: 60px;
+  height: 60px;
+  float: left;
+  background: white;
+  border-radius: 2px;
+  border: white 3px solid;
+  padding: 5px;
+  margin-left: auto;
+}
+
+.tech-section {
+  display: flex;
+  justify-content: center;
+}
+
+.down-pointer {
+  background: transparent;
+  border: 2px #99ffd6 solid;
+  border-radius: 70px;
+}
